@@ -1,0 +1,105 @@
+doctype html
+head()
+    //- Meta
+    meta(name="theme-color" content="#fff") 
+    meta(http-equiv="content-type" content="text/html; charset=UTF-8") 
+    meta(http-equiv="X-UA-Compatible" content="ie=edge") 
+    meta(name="viewport" content="width=device-width, initial-scale=1.0") 
+    meta(property="og:description" name="description" content="PAW") 
+    meta(property="og:author" name="author" content="Aston Gemmy O'naire") 
+    meta(property="og:keywords" name="keywords" content="") 
+    meta(property="og:image" name="image" content="images/thumbnails/PAW.webp") 
+    title() Ebook Marketing
+    //-  Meta Ends
+    
+    //- CSS
+    link(href="stylesheets/all.css" rel="stylesheet" type="text/css") 
+    link(href="stylesheets/style.css" rel="stylesheet" type="text/css") 
+    link(href="stylesheets/hamburgers.css" rel="stylesheet" type="text/css") 
+    //- CSS Ends
+
+    //- Site Icon
+    //- link(rel="shortcut icon" href="'images/favicon/PAW.webp") 
+    //- Site Icon Ends
+    
+    //- Manifest File
+    //- link(rel="manifest" href="manifest.json") 
+    //- Manifest File Ends
+    
+    //- Apple Touch Icon
+    //- link(rel="apple-touch-icon" href="images/thumbnail/PAW.webp") 
+    //- Apple Touch Icon Ends
+
+    block content
+    
+    body()
+
+        div(id="scroll-to-top") 
+            i(class="fa fa-arrow-up")         
+
+        //- Header Section
+        div(id="header") 
+
+            div(id="header--action-group") 
+
+                div(id="menu") 
+                    div(class="hamburger-menu") 
+                        button(class="hamburger hamburger--emphatic collapsible" aria-label="Hamburger Button" type="button") 
+                            span(class="hamburger-box") 
+                              span(class="hamburger-inner") 
+
+                a(href="index.html" id="brand") Ebook Marketing                
+
+                div(id="search" class="collapsible") 
+                    i(class="fa fa-search") 
+            
+            div(id="header--tool-group") 
+                ul(id="navbar") 
+                    li()
+                        a(href="#") Home
+                    li()
+                        a(href="#") About
+                    li()
+                        a(href="#") Contact Us
+                    li()
+                        a(href="#") Support                
+
+                form(method="POST" action="" id="search-container")
+                    input(type="search" name="search-box" id="search-box" placeholder="Search..." aria-placeholder="Search...")
+                   
+        //-  Main Section
+        block main
+
+        //- Footer Section
+        block footer
+            
+            div(id="footer") 
+                
+                div(class="footer--container") © Copyright 2020 || Powered By Algrith
+                
+        
+        block bottom-bar
+            
+            div(id="bottom-bar") 
+            
+                div(id="site-search" class="switchify--parent") 
+                    i(class="fa fa-search switchify--selector") 
+                    ul(class="switchify--option")
+                        li(class="") A
+                        li(class="") B
+                        li(class="") C                        
+                    
+                div(id="site-setting" class="switchify--parent") 
+                    i(class="fa fa-user-alt switchify--selector") 
+                    ul(class="switchify--option")
+                        a(href="#") Log in
+                        a(href="#") Register                    
+                
+                div(id="profile-setting" class="switchify--parent") 
+                    i(class="fa fa-cog switchify--selector") 
+                    ul(class="switchify--option")
+                        li(class="") Dark Theme
+                        li(class="") Light Theme
+                        li(class="") Language
+
+    script(type="module" src="javascripts/app.js")

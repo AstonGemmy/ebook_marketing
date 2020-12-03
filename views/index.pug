@@ -1,0 +1,452 @@
+extends layout
+
+block main
+    
+    //-  Main Section
+    div(id="main") 
+
+        div(id="featured-post" class="observed") 
+
+            div(class="featured-post--container") 
+
+                div(id="featured-post--info-group") 
+
+                    div(id="featured-post--image") 
+                        img(src="images/Books/Book 7.jpeg" alt="featured post image")                        
+
+                    div(id="featured-post--meta") 
+                        h1(id="title") How to Make $1Billion in 2 Secs
+                        div() Author: Aston Gemmy
+                        div() Publisher: Algrith PLC
+                        div() Format: PDF
+                        div() 250 pages                
+
+                div(id="featured-post--excerpts") The art making money is not a(mystery, you just need to find a(righteous and Holy Babalawo. If you need more than $1Billion in 2 secs, then your case is different...                    
+
+                div(id="featured-post-details") 
+
+                button(class="read-more") READ MORE
+                button(class="buy-now") BUY NOW
+
+        div(id="book-option" class="observed") 
+
+            div(class="book-option--container") 
+                
+                div(class="book-option--item") 
+                    i(class="fa fa-truck") 
+                    div(class="book-option--title") Free Shipping
+                    div(class="book-option--description") Free Shipping World Wide
+                
+
+                div(class="book-option--item") 
+                    i(class="fa fa-calendar-alt") 
+                    div(class="book-option--title") Money Back Guarantee
+                    div(class="book-option--description") 100% Money Back Guaranteed
+                
+
+                div(class="book-option--item") 
+                    i(class="fa fa-phone-alt") 
+                    div(class="book-option--title") Help and Support
+                    div(class="book-option--description") Call Us: 08103561805
+                
+
+                div(class="book-option--item") 
+                    i(class="fa fa-credit-card") 
+                    div(class="book-option--title") Online Payment
+                    div(class="book-option--description") Make Cashless Transactions
+                            
+
+        div(id="book-trending" class="observed") 
+
+            div(class="book-trending--container") 
+
+                div(class="book-trending--item" book-type="Hot") 
+                    div(class="book-trending--image") 
+                        img(src="images/Books/Book 1.jpg" alt="book-trending") 
+                    
+                    div(class="book-trending--description") 
+                        span(class="book-trending--sale") On Sale Now
+                        span(class="book-trending--genre") Story Book
+                        button(class="book-trending--order") Order Now
+                    
+                
+
+                div(class="book-trending--item" book-type="Hot") 
+                    div(class="book-trending--image") 
+                        img(src="images/Books/Book 2.jpeg" alt="book-trending") 
+                    
+                    div(class="book-trending--description") 
+                        span(class="book-trending--sale") On Sale Now
+                        span(class="book-trending--genre") Holy Book
+                        button(class="book-trending--order") Order Now
+                    
+                
+
+                div(class="book-trending--item" book-type="Hot") 
+                    div(class="book-trending--image") 
+                        img(src="images/Books/Book 3.jpeg" alt="book-trending") 
+                    
+                    div(class="book-trending--description") 
+                        span(class="book-trending--sale") On Sale Now
+                        span(class="book-trending--genre") Tragic Book
+                        button(class="book-trending--order") Order Now
+                    
+                
+
+                div(class="book-trending--item" book-type="Hot") 
+                    div(class="book-trending--image") 
+                        img(src="images/Books/Book 4.jpeg" alt="book-trending") 
+                    
+                    div(class="book-trending--description") 
+                        span(class="book-trending--sale") On Sale Now
+                        span(class="book-trending--genre") Comic Book
+                        button(class="book-trending--order") Order Now
+                    
+                
+        div(id="book-hot" class="observed") 
+
+            div(class="book-hot--container") 
+            
+                div(class="header-group") 
+                    h1(class="title") HOT PICK
+                    h2() New Books
+                    h2() Trending Books
+                    h2() Recommended
+                
+                
+                div(class="book-hot--slide-group" id="book-hot-slider") 
+                    
+                    div(class="book-hot--slide") 
+                        div(class="book-hot--image") 
+                            img(src="images/Books/Book 8.jpeg" alt="Hot Books") 
+                        
+                        div(class="book-hot--action") 
+                            i(class="fa fa-heart") 
+                            i(class="fa fa-shopping-cart") 
+                            i(class="fa fa-search") 
+                            i(class="fa fa-recycle") 
+                        
+                        h1(class="book-hot--title") The Man in the Sea
+                        
+                        div(class="book-hot--rating") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                        
+                        div(class="book-hot--price") 
+                            span(class="selling-price") $6.25
+                            span(class="normal-price") $7.99
+                        
+                    
+
+                    div(class="book-hot--slide") 
+                        div(class="book-hot--image") 
+                            img(src="images/Books/Book 8.jpeg" alt="Hot Books") 
+                        
+                        div(class="book-hot--action") 
+                            i(class="fa fa-heart") 
+                            i(class="fa fa-shopping-cart") 
+                            i(class="fa fa-search") 
+                            i(class="fa fa-recycle") 
+                        
+                        h1(class="book-hot--title") The Man in the Sea
+                        
+                        div(class="book-hot--rating") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                        
+                        div(class="book-hot--price") 
+                            span(class="selling-price") $6.25
+                            span(class="normal-price") $7.99
+                        
+                    
+
+                    div(class="book-hot--slide") 
+                        div(class="book-hot--image") 
+                            img(src="images/Books/Book 8.jpeg" alt="Hot Books") 
+                        
+                        div(class="book-hot--action") 
+                            i(class="fa fa-heart") 
+                            i(class="fa fa-shopping-cart") 
+                            i(class="fa fa-search") 
+                            i(class="fa fa-recycle") 
+                        
+                        h1(class="book-hot--title") The Man in the Sea
+                        
+                        div(class="book-hot--rating") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                        
+                        div(class="book-hot--price") 
+                            span(class="selling-price") $6.25
+                            span(class="normal-price") $7.99
+                        
+                    
+
+                    div(class="book-hot--slide") 
+                        div(class="book-hot--image") 
+                            img(src="images/Books/Book 8.jpeg" alt="Hot Books") 
+                        
+                        div(class="book-hot--action") 
+                            i(class="fa fa-heart") 
+                            i(class="fa fa-shopping-cart") 
+                            i(class="fa fa-search") 
+                            i(class="fa fa-recycle") 
+                        
+                        h1(class="book-hot--title") The Man in the Sea
+                        
+                        div(class="book-hot--rating") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                        
+                        div(class="book-hot--price") 
+                            span(class="selling-price") $6.25
+                            span(class="normal-price") $7.99
+                        
+                    
+
+
+                    div(class="book-hot--slide") 
+                        div(class="book-hot--image") 
+                            img(src="images/Books/Book 8.jpeg" alt="Hot Books") 
+                        
+                        div(class="book-hot--action") 
+                            i(class="fa fa-heart") 
+                            i(class="fa fa-shopping-cart") 
+                            i(class="fa fa-search") 
+                            i(class="fa fa-recycle") 
+                        
+                        h1(class="book-hot--title") The Man in the Sea
+                        
+                        div(class="book-hot--rating") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                        
+                        div(class="book-hot--price") 
+                            span(class="selling-price") $6.25
+                            span(class="normal-price") $7.99
+                        
+                    
+
+
+                    div(class="book-hot--slide") 
+                        div(class="book-hot--image") 
+                            img(src="images/Books/Book 8.jpeg" alt="Hot Books") 
+                        
+                        div(class="book-hot--action") 
+                            i(class="fa fa-heart") 
+                            i(class="fa fa-shopping-cart") 
+                            i(class="fa fa-search") 
+                            i(class="fa fa-recycle") 
+                        
+                        h1(class="book-hot--title") The Man in the Sea
+                        
+                        div(class="book-hot--rating") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                            i(class="fa fa-star") 
+                        
+                        div(class="book-hot--price") 
+                            span(class="selling-price") $6.25
+                            span(class="normal-price") $10.99
+                        
+                    
+                
+
+                div(id="book-hot--slide-left") 
+                    i(class="fa fa-chevron-left") 
+                
+                div(id="book-hot--slide-right") 
+                    i(class="fa fa-chevron-right") 
+        
+
+        div(id="book-offer" class="observed") 
+
+            div(class="book-offer--container") 
+
+                div(class="book-offer--year") 2020                    
+
+                div(class="book-offer--trend") BOOKS OFFER TRENDS                    
+
+                div(class="book-offer--discount") Special Offer for Drama Book 30% Off
+                button(class="shop-now") SHOP NOW
+
+            
+
+        
+
+        div(id="author" class="observed") 
+            
+            div(class="author--container") 
+                
+                div(class="author--group") 
+            
+                    div(class="author--meta") 
+                    
+                        div(class="author--image") 
+                            img(src="images/Author/Leader 2.jpg" alt="") 
+                        
+                        div(class="author--name") Aston Gemmy
+                        
+                        div(class="author--position") Designer                        
+
+                    div(class="author--bio") Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officiis commodi eius consequuntur, libero architecto vitae deleniti officia modi, maxime facere a(dolore aliquam qui mollitia distinctio nemo fuga repudiandae!
+                    
+
+                
+                
+                div(id="author--slide-left") 
+                    i(class="fa fa-chevron-left") 
+                
+                div(id="author--slide-right") 
+                    i(class="fa fa-chevron-right") 
+                
+
+            
+            
+        
+
+        div(id="blog" class="observed") 
+
+            div(class="blog--container") 
+
+                div(class="header-group") 
+                    h1(class="title") FROM THE BLOG
+                    
+                
+
+                div(class="blog--group") 
+                    
+                    div(class="blog--item") 
+
+                        div(class="blog--image") 
+                            img(src="images/Excerpts.jpeg" alt="") 
+                        
+                        div(class="blog--description") 
+                            div(class="blog--date") 07 Nov, 2020
+                            
+                            div(class="blog--title") Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus in magni minima inventore, quibusdam sint architecto obcaecati eum! Quam voluptatibus sit corporis architecto, non aspernatur perferendis sint harum quo tenetur!
+                            
+                            div(class="blog--author") By: John Doe |  23k Comments |  456k likes
+                            
+                        
+                    
+                    
+
+                    div(class="blog--item") 
+
+                        div(class="blog--image") 
+                            img(src="images/Excerpts.jpeg" alt="") 
+                        
+                        div(class="blog--description") 
+                            div(class="blog--date") 07 Nov, 2020
+                            
+                            div(class="blog--title") Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus in magni minima inventore, quibusdam sint architecto obcaecati eum! Quam voluptatibus sit corporis architecto, non aspernatur perferendis sint harum quo tenetur!
+                            
+                            div(class="blog--author") By: John Doe |  23k Comments |  456k likes
+                            
+                        
+                    
+                    
+
+                    div(class="blog--item") 
+
+                        div(class="blog--image") 
+                            img(src="images/Excerpts.jpeg" alt="") 
+                        
+                        div(class="blog--description") 
+                            div(class="blog--date") 07 Nov, 2020
+                            
+                            div(class="blog--title") Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus in magni minima inventore, quibusdam sint architecto obcaecati eum! Quam voluptatibus sit corporis architecto, non aspernatur perferendis sint harum quo tenetur!
+                            
+                            div(class="blog--author") By: John Doe |  23k Comments |  456k likes
+                            
+                        
+                    
+                    
+
+                    div(class="blog--item") 
+
+                        div(class="blog--image") 
+                            img(src="images/Excerpts.jpeg" alt="") 
+                        
+                        div(class="blog--description") 
+                            div(class="blog--date") 07 Nov, 2020
+                            
+                            div(class="blog--title") Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus in magni minima inventore, quibusdam sint architecto obcaecati eum! Quam voluptatibus sit corporis architecto, non aspernatur perferendis sint harum quo tenetur!
+                            
+                            div(class="blog--author") By: John Doe |  23k Comments |  456k likes
+                            
+                        
+                    
+                    
+
+                    div(class="blog--item") 
+
+                        div(class="blog--image") 
+                            img(src="images/Excerpts.jpeg" alt="") 
+                        
+                        div(class="blog--description") 
+                            div(class="blog--date") 07 Nov, 2020
+                            
+                            div(class="blog--title") Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus in magni minima inventore, quibusdam sint architecto obcaecati eum! Quam voluptatibus sit corporis architecto, non aspernatur perferendis sint harum quo tenetur!
+                            
+                            div(class="blog--author") By: John Doe |  23k Comments |  456k likes
+                            
+                        
+                    
+                    
+
+                    div(class="blog--item") 
+
+                        div(class="blog--image") 
+                            img(src="images/Excerpts.jpeg" alt="") 
+                        
+                        div(class="blog--description") 
+                            div(class="blog--date") 07 Nov, 2020
+                            
+                            div(class="blog--title") Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus in magni minima inventore, quibusdam sint architecto obcaecati eum! Quam voluptatibus sit corporis architecto, non aspernatur perferendis sint harum quo tenetur!
+                            
+                            div(class="blog--author") By: John Doe |  23k Comments |  456k likes               
+
+        
+
+        div(id="accordion" class="observed") 
+
+            div(class="accordion--container") 
+                
+                div(class="accordion--item") 
+                    div(class="accordion--selector") About
+                    div(class="accordion--content") Content
+                    
+                
+
+                div(class="accordion--item") 
+                    div(class="accordion--selector") Contact
+                    div(class="accordion--content") Content
+                    
+                
+
+                div(class="accordion--item") 
+                    div(class="accordion--selector") Support
+                    div(class="accordion--content") Content
+                    
+                
+
+                div(class="accordion--item") 
+                    div(class="accordion--selector") Donate
+                    div(class="accordion--content") Content
+                    
+                        
+
+    
