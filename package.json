@@ -1,9 +1,9 @@
 {
   "name": "ebook-marketing",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
