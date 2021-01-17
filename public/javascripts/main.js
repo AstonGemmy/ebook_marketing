@@ -156,14 +156,14 @@ export class Action {
         },
 
         scrollComplete: {        
-            vertical: (elem) => {
+            horizontal: (elem) => {
                 if ( document.getElementById(elem).scrollLeft + document.getElementById(elem).clientWidth >= document.getElementById(elem).scrollWidth ) {
                     return true;
                 }
                 return false;
             },
     
-            horizontal: (elem) => {
+            vertical: (elem) => {
                 if ( document.getElementById(elem).scrollTop + document.getElementById(elem).clientHeight >= document.getElementById(elem).scrollHeight ) {
                     return true;
                 }
